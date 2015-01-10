@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 
 public class CustomCam extends CordovaPlugin {
-	public static final String TAG = "Cool Plugin";
+	public static final String TAG = "Custom Cam";
 /**
 * Constructor.
 */
@@ -25,12 +25,12 @@ public CustomCam() {}
 */
 public void initialize(CordovaInterface cordova, CordovaWebView webView) {
 super.initialize(cordova, webView);
-Log.v(TAG,"Init CoolPlugin");
+Log.v(TAG,"Init CustomCam");
 }
 public boolean execute(final String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 final int duration = Toast.LENGTH_SHORT;
 // Shows a toast
-Log.v(TAG,"CoolPlugin received:"+ action);
+Log.v(TAG,"CustomCam received:"+ action);
 cordova.getActivity().runOnUiThread(new Runnable() {
 public void run() {
 Toast toast = Toast.makeText(cordova.getActivity().getApplicationContext(), action, duration);

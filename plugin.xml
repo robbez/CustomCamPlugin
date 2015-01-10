@@ -4,9 +4,9 @@
     id="com.robbez.customcam"
     version="0.2.11">
     <name>CustomCam</name>
-    <description>The coolest Plugin ever implemented</description>
+    <description>The CustomCam Plugin ever implemented</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,coolest</keywords>
+    <keywords>cordova,CustomCam</keywords>
     <repo></repo>
     <issue></issue>
     <js-module src="www/CustomCam.js" name="CustomCam">
