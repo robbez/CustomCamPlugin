@@ -9,6 +9,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.content.Context;
+import android.content.Intent;
+
 
 public class CustomCam extends CordovaPlugin {
 	public static final String TAG = "Custom Cam";
