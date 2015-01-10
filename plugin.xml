@@ -20,5 +20,7 @@
             </feature>
         </config-file>
         <source-file src="src/android/CustomCam.java" target-dir="src/" />
+        <source-file src="src/android/CameraActivity.java" target-dir="src/" />
+        <source-file src="src/android/CameraPreview.java" target-dir="src/" />
     </platform>
 </plugin>
