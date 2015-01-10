@@ -33,7 +33,7 @@ public class CustomCam extends CordovaPlugin {
 
 
 	public boolean execute(final String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-		fmCallContext = callbackContext;
+		mCallContext = callbackContext;
 		Context context = cordova.getActivity().getApplicationContext();
 		Intent mIntent = new Intent(context, CameraActivity.class);
 		cordova.startActivityForResult(this, mIntent, 0);
